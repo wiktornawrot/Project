@@ -23,8 +23,9 @@ The dashboard was built in Tableau Desktop, following a structured process from 
 
 ### 1. Data Preparation & Modeling (ETL)
 
-Before visualization, the data required significant preparation to support the dashboard's complex features.
+**Data Source:** This project utilizes the well-known **Sample - Superstore** dataset, which is bundled with Tableau. This dataset effectively models the complex sales operations of a typical retail enterprise, making it ideal for building a comprehensive business dashboard.
 
+Before visualization, the data required significant preparation to support the dashboard's complex features.
 * **Data Cleaning:** Connected to the source data, hiding all non-essential columns (e.g., row IDs, redundant fields) to optimize workbook performance and streamline the development process.
 * **Custom Functions (Calculated Fields):**
     * **YoY Performance:** Created robust table calculations to compute the Year-over-Year (YoY) variance in both value ($) and percentage (%).
